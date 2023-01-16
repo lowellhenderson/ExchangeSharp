@@ -24,7 +24,8 @@ namespace ExchangeSharp
 
 	public sealed partial class ExchangeCoinbaseAPI : ExchangeAPI
 	{
-		public override string BaseUrl { get; set; } = "https://api.pro.coinbase.com";
+		//public override string BaseUrl { get; set; } = "https://api.pro.coinbase.com";
+		public override string BaseUrl { get; set; } = "https://api.coinbase.com";
 		public override string BaseUrlWebSocket { get; set; } = "wss://ws-feed.pro.coinbase.com";
 
 		/// <summary>
